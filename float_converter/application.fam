@@ -1,0 +1,12 @@
+App(
+    appid="float_converter",
+    name="Float Converter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="float_converter_app",
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_version="1.0.1",
+    fap_icon="float_converter_10px.png",
+    fap_author="Francesco Not",
+    fap_description="IEEE 754 binary32/binary16/bfloat16 converter: BIN/HEX/fields/DEC",
+)
