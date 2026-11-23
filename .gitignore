@@ -1,0 +1,13 @@
+# uFBT build artifacts
+dist/
+.ufbt/
+*.fap
+
+# Local editor / tooling
+.vscode/
+.clangd
+.cache/
+
+# Python
+__pycache__/
+*.pyc
