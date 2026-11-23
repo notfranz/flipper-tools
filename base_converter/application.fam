@@ -1,0 +1,12 @@
+App(
+    appid="base_converter",
+    name="Base Converter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="base_converter_app",
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_version="1.1",
+    fap_icon="base_converter_10px.png",
+    fap_author="Francesco Not",
+    fap_description="32-bit BIN/OCT/HEX/ASCII/DEC converter with per-digit editing",
+)
